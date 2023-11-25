@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+.sentiment-head {
+  display: flex;
+  margin-top: 40px;
+}
+
+.sentiment-headright {
+  margin-left: 950px;
+}
+
+.signup-button {
+  margin-right: 20px;
+  box-shadow: #ddc0c0;
+  background-color: #c82f2f;
+  /* For WebKit (Safari, Chrome, etc) */
+  background: #FCFEFF -webkit-gradient(linear, left top, left bottom, from(#ca2323), to(#841212)) no-repeat;
+  width: 150px;
+  height: 45px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.signup-button:hover {
+  background: #FCFEFF -webkit-gradient(linear, left top, left bottom, from(#781a1a), to(#d63c3c)) no-repeat;
+}
+
+.signin-button {
+  background: #FCFEFF -webkit-gradient(linear, left top, left bottom, from(#f5f0f0), to(#b4aaaa)) no-repeat;
+  color: black;
+  width: 150px;
+  height: 45px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}
+
+.signin-button:hover {
+  background: #FCFEFF -webkit-gradient(linear, left top, left bottom, from(#817777), to(#f1ebeb)) no-repeat;
+}
+
+.sentiment-headleft {
+  margin-top: -10px;
+  margin-left: 40px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  color: #f2e2e1;
+  font-weight: bold;
+
+}
+
+.sentiment-title {
+  margin-top: 70px;
+  text-align: center;
+  font-family: "poppins";
+  font-size: 60px;
+  color: #000;
+  font-weight: bold;
+  margin-right: 20px
+}
+
+.form-description {
+  margin-top: 8px;
+  text-align: center;
+  font-family: "poppins-light",300;
+  font-size: 20px;
+  color: #000;
+  font-weight: lighter;
+  margin-right: 20px
+}
+
+.sentiment-form {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  flex-direction: column;
+  margin-left: 400px;
+
+}
+
+.sentiment-input {
+  box-shadow: 7px 7px 7px rgba(129, 124, 124, 0.5);
+  height: 60px;
+  width: 700px;
+  font-size: 1.5em;
+  border-radius: 30px;
+  border: none;
+  box-sizing: border-box;
+  background-color: white;
+  color: Black;
+  border: 2px solid #4a90e2;
+  margin-right: 10px;
+  padding: 10px;
+  padding-left: 70px
+}
+
+.sentiment-input:focus {
+  outline: none;
+}
+
+.sentiment-btn {
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 258px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 1.2em;
+  border: none;
+  vertical-align: top;
+
+  /* For WebKit (Safari, Chrome, etc) */
+  background: #FCFEFF -webkit-gradient(linear, left top, left bottom, from(#7db1db), to(#234b60)) no-repeat;
+
+  box-sizing: border-box;
+  padding: 0 20px;
+
+  color: #ffffffde;
+  border: 2px solid #1d4371;
+  cursor: pointer;
+}
+
+
+.footer {
+  margin-top: 150px;
+
+}
+
+.copyright {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  margin-left: 20px;
+  color: white;
+}
+
+
+.sentiment-result {
+  box-shadow: 7px 7px 7px rgba(129, 124, 124, 0.5);
+  height: 240px;
+  width: 700px;
+  font-size: 1.5em;
+  border-radius: 30px;
+  border: none;
+  box-sizing: border-box;
+  background-color: white;
+  color: Black;
+  border: 2px solid #4a90e2;
+  margin-right: 10px;
+  padding: 20px;
+
+
+
+}
+
+.sentiment-sentiment {
+
+  height: 60px;
+  width: 600px;
+  font-size: 1.5em;
+  border-radius: 30px;
+
+  background-color: white;
+  color: Black;
+  border: none;
+  margin-right: 60px;
+
+
+}
+
+.sentiment-classe1 {
+  background-color: rgb(10, 124, 10);
+  border-radius: 20px;
+  height: 50px;
+
+}
+.sentiment-classe2 {
+  background-color: rgb(195, 18, 18);
+  border-radius: 20px;
+  height: 50px;
+
+}
+
+
+.sentiment-posneg {
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+  padding-top: 10px;
+}

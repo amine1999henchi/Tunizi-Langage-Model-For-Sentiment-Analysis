@@ -1,0 +1,63 @@
+.navbar-head{
+    background-color: #1f2a2d;
+    margin-bottom: -2px;
+    height: 50px;
+    position: fixed;
+}
+.container-navbar{
+    display: flex;
+  flex-wrap: wrap;
+  
+  
+  
+  
+}
+.Logout-container{
+    margin-top: -55px;
+    margin-left: 80px;
+    display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  width: 150px;
+  font-size: 50px;
+  
+  
+  
+    
+}
+.logout-logout{
+    margin-top: 22px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.logout-icon{
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: xx-large;
+    cursor: pointer;
+    margin-top: -4px;
+}
+.logo11{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 30px;
+    
+    
+}
+.person-icon{
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: xx-large;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: -7px;
+    
+    
+}
